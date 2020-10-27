@@ -6,13 +6,13 @@ Actualmente el fraude es uno de los principales problemas que enfrentan los sist
 
 Esta investigación tiene como objetivo desarrollar un modelo de machine learning que detecte de manera precisa el posible fraude realizado por proveedores en reclamos de salud. También busca utilizar la ingeniería de características ya que esta técnica mejora la precisión de predicción realizada por el modelo. Se busca desarrollar diferentes algoritmos de categorización realizando el preprocesamiento la información necesaria para su entrenamiento y evaluación, logrando mostrar su precisión en la detección de fraude. Finalmente se determinará el modelo que detectó con mayor precisión el posible fraude.
 
-#Objetivos
+# Objetivos
 Se presentan los objetivos que se buscan alcanzar en el desarrollo del trabajo.
 
-##General
+## General
 * Implementar el modelo de machine learning que detecte con mayor precisión el posible fraude por proveedores en reclamos de salud.
 
-##Específicos 
+## Específicos 
 * Implementar ingeniería de características para mejorar la precisión de la predicción y el reconocimiento de patrones de fraude en el conjunto de datos analizado.
 
 * Desarrollar prototipos con diferentes modelos de machine learning identificando sus precisiones en la detección del posible fraude por proveedores en reclamos de salud.
@@ -20,7 +20,7 @@ Se presentan los objetivos que se buscan alcanzar en el desarrollo del trabajo.
 * Identificar  el modelo de machine learning con la mejor precisión para la detección del posible fraude por proveedores de reclamos de salud en el conjunto de datos analizado.
 
 
-#Metodologia
+# Metodologia
 * Definición del Problema: Se definió el problema a resolver con machine learning.
 * Investigación: Se investigaron los modelos de machine learning candidatos para solucionar el problema de categorización definido en el paso anterior.
 * Minería de Datos: Se realizó limpieza y análisis exploratorio del conjunto de datos.
@@ -31,5 +31,5 @@ Se presentan los objetivos que se buscan alcanzar en el desarrollo del trabajo.
 * Predicción: Se verificaron los verdaderos positivos y falsos positivos de la predicción realizada por cada modelo.
 
 
-#Resultados 
+# Resultados 
 El modelo de machine learning que detectó con mayor precisión el posible fraude por proveedores es el de regresión logística, ya que tuvo un accuracy de ~0.91 lo que nos indica que identificó con un 91% de precisión los casos positivos correctamente identificados de todos los casos predichos. También tuvo una puntuación F1 de ~0.59 la cual nos proporciona una mejor medida de los casos clasificados incorrectamente siendo crucial obtener una puntuación alta en un conjunto de datos desequilibrado. 
